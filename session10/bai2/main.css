@@ -1,0 +1,33 @@
+
+    .box{
+        display: flex;
+    }
+    .B{
+        display: flex;
+        flex-wrap: wrap;
+        width: 220px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        gap: 10px;
+
+    }
+    img{
+        width:200px;
+        height: 180px;
+        border-radius: 6px;
+    }
+    .B p{
+        background-color: rgb(212, 212, 212);
+        padding: 20px 0;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        border-radius: 6px;
+        margin: 0;
+        font-size: 30px;
+        font-weight: 900;
+       
+    }
+    
