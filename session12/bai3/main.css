@@ -1,0 +1,14 @@
+
+body{
+    width: 50%;
+    }
+.X{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+.main{
+    border: 8px solid #7F7F7F   ;
+    padding: 10px;
+    }
+ 
