@@ -44,5 +44,5 @@ function sChuNhat(){
 function cChuNhat(){
     let l = Number(prompt("Nhap chieu dai hinh chu nhat"))
     let w = Number(prompt("Nhap chieu rong hinh chu nhat"))
-    alert(`Dien tich hinh chu nhat la: ${2*(l+w)} `)
+    alert(`Chu vi hinh chu nhat la: ${2*(l+w)} `)
 }

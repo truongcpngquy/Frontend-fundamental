@@ -47,5 +47,5 @@ function nhan() {
 function chia() {
     let a = Number(prompt("Nhập một số"))
     let b = Number(prompt("Nhập một số"))
-    alert(`chia 2 so ${a} : ${b} =  ${a % b}`)
+    alert(`chia 2 so ${a} : ${b} =  ${a / b}`)
 }

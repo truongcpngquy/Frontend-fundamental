@@ -12,5 +12,5 @@ function isArithmeticSequence(arr) {
     return true;
 }
 let arr = [2, 4, 6, 8]
-console.log(isArithmeticSequence(arr)); 
+console.log(isArithmeticSequence(arr) ? "TRUE" : "FALSE"); 
 

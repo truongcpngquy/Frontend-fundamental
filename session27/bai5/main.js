@@ -3,8 +3,7 @@ function splitArray(arr, n) {
         return "dữ liệu không hợp lệ";
     }
 
-    let size = Math.ceil(arr.length / n); 
-    let result = [];
+    let size = Math.ceil(arr.length / n);
 
     for (let i = 0; i < arr.length; i += size) {
         result.push(arr.slice(i, i + size));
