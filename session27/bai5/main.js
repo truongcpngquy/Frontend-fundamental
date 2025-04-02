@@ -1,18 +1,17 @@
 function splitArray(arr, n) {
-    if (!Array.isArray(arr) || isNaN(n) || n <= 0 || n > arr.length) {
-        return "dữ liệu không hợp lệ";
+    if (!Array.isArray(arr) || n <= 0 || !Number.isInteger(n)) {
+        return "Dữ liệu không hợp lệ";
     }
 
-    let size = Math.ceil(arr.length / n);
-
-    for (let i = 0; i < arr.length; i += size) {
-        result.push(arr.slice(i, i + size));
+    let result = [];
+    for (let i = 0; i < arr.length; i += n) {
+        result.push(arr.slice(i, i + n));
     }
 
     return result;
 }
 
-let n = Number(prompt("Nhập số nhóm muốn chia:"));
+let n = Number(prompt("Nhập số phần tử trong mỗi nhóm:"));
 let arr = [1, 2, 3, 4, 5, 6, 7, 8];
 
 console.log(splitArray(arr, n));
