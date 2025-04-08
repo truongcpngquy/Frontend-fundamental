@@ -1,0 +1,20 @@
+.square {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    border: solid black 3px;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.green {
+    background-color: green;
+}
