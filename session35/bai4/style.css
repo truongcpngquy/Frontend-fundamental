@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+input::placeholder {
+    font-style: italic;
+}
+
+button {
+    font-weight: 500;
+}
+
+table {
+    margin-top: 20px;
+}
+
+.pagination .page-link {
+    color: #007bff;
+}
+
+.pagination .active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
